@@ -20,8 +20,8 @@ const weight: {[key: string]: TextStyle['fontWeight']} = {
   bold: 'bold',
 };
 
-const font = {
+const fontStyle = {
 
 };
 
-export default {size, weight, font};
+export default {size, weight, fontStyle};

@@ -13,6 +13,16 @@ const colors = {
   lightgrey: '#E0E0E0', //Gainsboro
   darkgrey: '#666666', //Garnite Grey
 
+  //CLASSIC CUTS//
+  ccprime: '#fefefe',
+  ccsecond: '#fefefe',
+  ccthird: '#fefefe',
+
+  //BURGERVAN//
+  bvprime: '#fefefe',
+  bvsecond: '#fefefe',
+  bvthird: '#fefefe',
+
 };
 
 export default colors;
