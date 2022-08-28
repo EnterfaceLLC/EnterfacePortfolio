@@ -9,7 +9,9 @@ const size = {
   subtitle: 26,
   title: 30, 
   head: 36,
-  xl: 40, 
+  xl: 40,
+  xxl: 60,
+  xxxl: 80 
 };
 
 const weight: {[key: string]: TextStyle['fontWeight']} = {
@@ -21,7 +23,7 @@ const weight: {[key: string]: TextStyle['fontWeight']} = {
 };
 
 const fontStyle = {
-
+  amita : 'Amita_400Regular',
 };
 
 export default {size, weight, fontStyle};

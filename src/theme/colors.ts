@@ -14,9 +14,9 @@ const colors = {
   darkgrey: '#666666', //Garnite Grey
 
   //CLASSIC CUTS//
-  ccprime: '#fefefe',
-  ccsecond: '#fefefe',
-  ccthird: '#fefefe',
+  ccprime: '#323C4F', //Charcoal
+  ccsecond: '#97233F', //Big Dip Oruby
+  ccthird: '#FFE347',  //Minion Yellow
 
   //BURGERVAN//
   bvprime: '#fefefe',

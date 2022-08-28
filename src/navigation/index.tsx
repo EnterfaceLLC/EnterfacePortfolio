@@ -33,9 +33,20 @@ const DrawerTabs = () => {
       }}
     >
 
-    <Drawer.Screen options={{drawerIcon: ({focused}) => <Ionicons name="home" size={28} color={focused ? colors.tertiary : colors.white} />}} name="Home" component={HomeScreen} />
+      <Drawer.Screen 
+        name="Home" 
+        component={HomeScreen} 
+        options={{
+          drawerIcon: ({focused}) =>
+           <Ionicons
+            name="home" 
+            size={28}
+            color={focused ? colors.tertiary : colors.white}
+          />
+        }}
+      />
 
-    <Drawer.Screen
+      <Drawer.Screen
         name="Classic Cuts"
         component={ClassicCuts}
         options={{
@@ -45,13 +56,15 @@ const DrawerTabs = () => {
               size={28} 
               color={focused ? colors.tertiary : colors.white} 
             />,
-          headerStyle: {backgroundColor: 'white', borderBottomWidth: 7, borderBottomColor: '#58111A'},
-          headerTitleStyle: {color: '#58111A'},
-          headerTintColor: '#58111A',
+          headerStyle: {
+            backgroundColor: colors.ccprime,
+            borderBottomWidth: 7,
+            borderBottomColor: 'silver'
+          },
+          headerTitleStyle: {color: colors.white},
+          headerTintColor: colors.white,
         }}
       />
-
-
 
     </Drawer.Navigator>
   );

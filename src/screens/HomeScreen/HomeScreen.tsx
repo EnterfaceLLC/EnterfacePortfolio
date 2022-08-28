@@ -1,7 +1,6 @@
 import { View, Text, Image } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import { styles } from './style';
-import colors from '../../theme/colors';
 
 //***HOMESCREEN CODE BELOW***//
 const HomeScreen = () => {
